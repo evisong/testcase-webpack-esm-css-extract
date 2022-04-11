@@ -1,0 +1,17 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <script type="module" src="./esm.js"></script>
+  <script type="module">
+    import MyApp from './esm.js';
+
+    const div = document.createElement('div');
+    div.innerText = MyApp;
+    document.body.appendChild(div);
+  </script>
+</body>
+
+</html>

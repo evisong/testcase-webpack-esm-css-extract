@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "webpack serve --mode development --no-hot"
+  },
+  "devDependencies": {
+    "css-loader": "6.7.1",
+    "mini-css-extract-plugin": "2.6.0",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.8.1"
+  }
+}
